@@ -1,0 +1,12 @@
+[2024-08-26 08:00:05,754:INFO:main:welcome to our custom logging
+[2024-08-26 08:38:32,573:INFO:main:welcome to our custom logging
+[2024-08-26 08:38:44,187:INFO:main:welcome to our custom logging info
+[2024-08-26 23:07:10,341:ERROR:1716928455:An error occurred while processing data ingestion: [Errno 2] No such file or directory: 'config.config.yaml'
+[2024-08-26 23:09:15,148:ERROR:1716928455:An error occurred while processing data ingestion: [Errno 2] No such file or directory: 'config.config.yaml'
+[2024-08-26 23:09:18,205:ERROR:1716928455:An error occurred while processing data ingestion: [Errno 2] No such file or directory: 'config.config.yaml'
+[2024-08-26 23:09:31,810:ERROR:1716928455:An error occurred while processing data ingestion: [Errno 2] No such file or directory: 'config.config.yaml'
+[2024-08-26 23:09:35,908:ERROR:1716928455:An error occurred while processing data ingestion: [Errno 2] No such file or directory: 'config.config.yaml'
+[2024-08-26 23:10:53,419:ERROR:1716928455:An error occurred while processing data ingestion: [Errno 2] No such file or directory: 'config.config.yaml'
+[2024-08-26 23:13:43,316:ERROR:1716928455:An error occurred while processing data ingestion: [Errno 2] No such file or directory: 'config.config.yaml'
+[2024-08-26 23:14:37,849:ERROR:1716928455:An error occurred while processing data ingestion: [Errno 2] No such file or directory: 'config.config.yaml'
+[2024-08-26 23:25:37,961:ERROR:1716928455:An error occurred while processing data ingestion: [Errno 2] No such file or directory: 'config/config.yaml'
