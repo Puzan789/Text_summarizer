@@ -22,6 +22,21 @@ def read_yaml(path_to_yaml:Path)->ConfigBox :
     Raises:
         BoxValueError: If the YAML file is invalid.
     """
+    # try:
+    #     with open(path_to_yaml) as yaml_file:
+    #         content = yaml.safe_load(yaml_file)
+    #         print(f"Loaded YAML content: {content}")  # Debugging line
+    #         if content is None or not isinstance(content, dict):
+    #             raise ValueError("yaml file is empty or contains invalid data structure")
+    #         logger.info(f"yaml_file:{path_to_yaml} loaded successfully with content: {content}")
+    #         return ConfigBox(content)
+    # except BoxValueError as e:
+    #     logger.error(f"BoxValueError encountered: {e}")
+    #     raise ValueError("yaml file is empty or contains invalid data")
+    # except Exception as e:
+    #     logger.error(f"An error occurred: {e}")
+    #     raise e
+
     try :
         with open(path_to_yaml) as yaml_file:
             content=yaml.safe_load(yaml_file)

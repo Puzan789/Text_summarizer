@@ -10,3 +10,422 @@
 [2024-08-26 23:13:43,316:ERROR:1716928455:An error occurred while processing data ingestion: [Errno 2] No such file or directory: 'config.config.yaml'
 [2024-08-26 23:14:37,849:ERROR:1716928455:An error occurred while processing data ingestion: [Errno 2] No such file or directory: 'config.config.yaml'
 [2024-08-26 23:25:37,961:ERROR:1716928455:An error occurred while processing data ingestion: [Errno 2] No such file or directory: 'config/config.yaml'
+[2024-08-26 23:41:37,946:ERROR:1716928455:An error occurred while processing data ingestion: [Errno 2] No such file or directory: 'config/config.yaml'
+[2024-08-26 23:42:04,765:ERROR:1716928455:An error occurred while processing data ingestion: [Errno 2] No such file or directory: 'config/config.yaml'
+[2024-08-26 23:43:49,803:ERROR:1716928455:An error occurred while processing data ingestion: mapping values are not allowed here
+  in "config/config.yaml", line 3, column 15
+[2024-08-27 06:11:25,058:INFO:common:yaml_file:config/config.yaml loaded successfully
+[2024-08-27 06:11:25,065:INFO:common:yaml_file:params.yaml loaded successfully
+[2024-08-27 06:11:25,067:ERROR:1716928455:An error occurred while processing data ingestion: yaml file is empty
+[2024-08-27 11:03:27,040:INFO:common:yaml_file:config/config.yaml loaded successfully
+[2024-08-27 11:03:27,044:INFO:common:yaml_file:params.yaml loaded successfully
+[2024-08-27 11:03:27,045:ERROR:1716928455:An error occurred while processing data ingestion: yaml file is empty
+[2024-08-27 11:05:21,810:INFO:common:yaml_file:config/config.yaml loaded successfully
+[2024-08-27 11:05:21,812:INFO:common:yaml_file:params.yaml loaded successfully
+[2024-08-27 11:05:21,813:ERROR:1716928455:An error occurred while processing data ingestion: yaml file is empty
+[2024-08-27 11:06:09,522:INFO:common:yaml_file:config/config.yaml loaded successfully
+[2024-08-27 11:06:09,524:INFO:common:yaml_file:params.yaml loaded successfully
+[2024-08-27 11:11:56,330:INFO:common:yaml_file:config/config.yaml loaded successfully
+[2024-08-27 11:11:56,335:INFO:common:yaml_file:params.yaml loaded successfully
+[2024-08-27 11:12:43,755:INFO:common:yaml_file:config/config.yaml loaded successfully
+[2024-08-27 11:12:43,757:INFO:common:yaml_file:params.yaml loaded successfully
+[2024-08-27 11:13:18,537:INFO:common:Loaded YAML content: {'artifacts_root': 'artifacts', 'data_ingestion': {'root_dir': 'artifacts/data_ingestion', 'source_URL': 'https://github.com/Puzan789/Datas/raw/main/samsumdata.zip', 'local_data_file': 'artifacts/data_ingestion/data.zip', 'unzip_dir': 'artifacts/data_ingestion'}}
+[2024-08-27 11:13:18,540:INFO:common:yaml_file:config/config.yaml loaded successfully
+[2024-08-27 11:13:18,544:INFO:common:Loaded YAML content: key:value,
+[2024-08-27 11:13:18,545:INFO:common:yaml_file:params.yaml loaded successfully
+[2024-08-27 11:24:01,388:INFO:common:yaml_file:config/config.yaml loaded successfully with content: {'artifacts_root': 'artifacts', 'data_ingestion': {'root_dir': 'artifacts/data_ingestion', 'source_URL': 'https://github.com/Puzan789/Datas/raw/main/samsumdata.zip', 'local_data_file': 'artifacts/data_ingestion/data.zip', 'unzip_dir': 'artifacts/data_ingestion'}}
+[2024-08-27 11:24:01,392:ERROR:common:An error occurred: yaml file is empty or contains invalid data structure
+[2024-08-27 11:26:20,921:INFO:common:yaml_file:config/config.yaml loaded successfully with content: {'artifacts_root': 'artifacts', 'data_ingestion': {'root_dir': 'artifacts/data_ingestion', 'source_URL': 'https://github.com/Puzan789/Datas/raw/main/samsumdata.zip', 'local_data_file': 'artifacts/data_ingestion/data.zip', 'unzip_dir': 'artifacts/data_ingestion'}}
+[2024-08-27 11:26:20,924:INFO:common:yaml_file:params.yaml loaded successfully with content: {'param1': 'value1', 'param2': {'nested_param': 'value2'}}
+[2024-08-27 11:26:20,925:INFO:common:created directory at: artifacts
+[2024-08-27 11:26:20,926:INFO:common:created directory at: artifacts/data_ingestion
+[2024-08-27 11:26:36,454:INFO:common:yaml_file:config/config.yaml loaded successfully with content: {'artifacts_root': 'artifacts', 'data_ingestion': {'root_dir': 'artifacts/data_ingestion', 'source_URL': 'https://github.com/Puzan789/Datas/raw/main/samsumdata.zip', 'local_data_file': 'artifacts/data_ingestion/data.zip', 'unzip_dir': 'artifacts/data_ingestion'}}
+[2024-08-27 11:26:36,456:INFO:common:yaml_file:params.yaml loaded successfully with content: {'param1': 'value1', 'param2': {'nested_param': 'value2'}}
+[2024-08-27 11:26:36,457:INFO:common:created directory at: artifacts
+[2024-08-27 11:26:36,458:INFO:common:created directory at: artifacts/data_ingestion
+[2024-08-27 11:27:39,804:INFO:common:yaml_file:config/config.yaml loaded successfully with content: {'artifacts_root': 'artifacts', 'data_ingestion': {'root_dir': 'artifacts/data_ingestion', 'source_URL': 'https://github.com/Puzan789/Datas/raw/main/samsumdata.zip', 'local_data_file': 'artifacts/data_ingestion/data.zip', 'unzip_dir': 'artifacts/data_ingestion'}}
+[2024-08-27 11:27:39,807:INFO:common:yaml_file:params.yaml loaded successfully with content: {'param1': 'value1', 'param2': {'nested_param': 'value2'}}
+[2024-08-27 11:27:39,809:INFO:common:created directory at: artifacts
+[2024-08-27 11:27:39,810:INFO:common:created directory at: artifacts/data_ingestion
+[2024-08-27 11:27:58,825:INFO:common:yaml_file:config/config.yaml loaded successfully with content: {'artifacts_root': 'artifacts', 'data_ingestion': {'root_dir': 'artifacts/data_ingestion', 'source_URL': 'https://github.com/Puzan789/Datas/raw/main/samsumdata.zip', 'local_data_file': 'artifacts/data_ingestion/data.zip', 'unzip_dir': 'artifacts/data_ingestion'}}
+[2024-08-27 11:27:58,827:INFO:common:yaml_file:params.yaml loaded successfully with content: {'param1': 'value1', 'param2': {'nested_param': 'value2'}}
+[2024-08-27 11:27:58,829:INFO:common:created directory at: artifacts
+[2024-08-27 11:27:58,829:INFO:common:created directory at: artifacts/data_ingestion
+[2024-08-27 11:28:03,808:INFO:988055205:artifacts/data_ingestion/data.zip download! with following info :
+ Connection: close
+Content-Length: 23627009
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "2e7409b328d118a1d37018be788babf8bf9640386387da766ac100e96efa3b93"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 63FE:266D51:62BBD:894F5:66CD6763
+Accept-Ranges: bytes
+Date: Tue, 27 Aug 2024 05:43:01 GMT
+Via: 1.1 varnish
+X-Served-By: cache-del21729-DEL
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1724737380.618602,VS0,VE1566
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 8185f6810bbd53b17be1525daf86206ccd12884c
+Expires: Tue, 27 Aug 2024 05:48:01 GMT
+Source-Age: 1
+
+
+[2024-08-27 11:30:01,047:INFO:common:yaml_file:config/config.yaml loaded successfully with content: {'artifacts_root': 'artifacts', 'data_ingestion': {'root_dir': 'artifacts/data_ingestion', 'source_URL': 'https://github.com/Puzan789/Datas/raw/main/samsumdata.zip', 'local_data_file': 'artifacts/data_ingestion/data.zip', 'unzip_dir': 'artifacts/data_ingestion'}}
+[2024-08-27 11:30:01,050:INFO:common:yaml_file:params.yaml loaded successfully with content: {'param1': 'value1', 'param2': {'nested_param': 'value2'}}
+[2024-08-27 11:30:01,052:INFO:common:created directory at: artifacts
+[2024-08-27 11:30:01,053:INFO:common:created directory at: artifacts/data_ingestion
+[2024-08-27 11:30:04,329:INFO:988055205:artifacts/data_ingestion/data.zip download! with following info :
+ Connection: close
+Content-Length: 23627009
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "2e7409b328d118a1d37018be788babf8bf9640386387da766ac100e96efa3b93"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 63FE:266D51:62BBD:894F5:66CD6763
+Accept-Ranges: bytes
+Date: Tue, 27 Aug 2024 05:45:01 GMT
+Via: 1.1 varnish
+X-Served-By: cache-del21740-DEL
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1724737501.394994,VS0,VE1
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 8072bb790e4445ea46181be25a9eb1ff169f0d44
+Expires: Tue, 27 Aug 2024 05:50:01 GMT
+Source-Age: 121
+
+
+[2024-08-27 11:30:04,350:ERROR:1716928455:An error occurred while processing data ingestion: 
+[2024-08-27 11:32:49,362:INFO:common:yaml_file:config/config.yaml loaded successfully with content: {'artifacts_root': 'artifacts', 'data_ingestion': {'root_dir': 'artifacts/data_ingestion', 'source_URL': 'https://github.com/Puzan789/Datas/raw/main/samsumdata.zip', 'local_data_file': 'artifacts/data_ingestion/data.zip', 'unzip_dir': 'artifacts/data_ingestion'}}
+[2024-08-27 11:32:49,367:INFO:common:yaml_file:params.yaml loaded successfully with content: {'param1': 'value1', 'param2': {'nested_param': 'value2'}}
+[2024-08-27 11:32:49,369:INFO:common:created directory at: artifacts
+[2024-08-27 11:32:49,371:INFO:common:created directory at: artifacts/data_ingestion
+[2024-08-27 11:32:51,902:INFO:988055205:artifacts/data_ingestion/data.zip download! with following info :
+ Connection: close
+Content-Length: 23627009
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "2e7409b328d118a1d37018be788babf8bf9640386387da766ac100e96efa3b93"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 63FE:266D51:62BBD:894F5:66CD6763
+Accept-Ranges: bytes
+Date: Tue, 27 Aug 2024 05:47:50 GMT
+Via: 1.1 varnish
+X-Served-By: cache-del21732-DEL
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1724737670.055756,VS0,VE1
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 3534cea966a9e18d55fc9ba04b90d53ea1443e47
+Expires: Tue, 27 Aug 2024 05:52:50 GMT
+Source-Age: 290
+
+
+[2024-08-27 11:32:51,914:ERROR:1716928455:An error occurred while processing data ingestion: 
+[2024-08-27 11:36:19,308:INFO:common:yaml_file:config/config.yaml loaded successfully with content: {'artifacts_root': 'artifacts', 'data_ingestion': {'root_dir': 'artifacts/data_ingestion', 'source_URL': 'https://github.com/Puzan789/Datas/raw/main/samsumdata.zip', 'local_data_file': 'artifacts/data_ingestion/data.zip', 'unzip_dir': 'artifacts/data_ingestion'}}
+[2024-08-27 11:36:19,312:INFO:common:yaml_file:params.yaml loaded successfully with content: {'param1': 'value1', 'param2': {'nested_param': 'value2'}}
+[2024-08-27 11:36:19,314:INFO:common:created directory at: artifacts
+[2024-08-27 11:36:19,315:INFO:common:created directory at: artifacts/data_ingestion
+[2024-08-27 11:36:19,316:ERROR:1716928455:An error occurred while processing data ingestion: Argument path of type <class 'str'> to <function get_size at 0x76bc6833c540> does not match annotation type <class 'pathlib.Path'>
+[2024-08-27 11:36:34,691:INFO:common:yaml_file:config/config.yaml loaded successfully with content: {'artifacts_root': 'artifacts', 'data_ingestion': {'root_dir': 'artifacts/data_ingestion', 'source_URL': 'https://github.com/Puzan789/Datas/raw/main/samsumdata.zip', 'local_data_file': 'artifacts/data_ingestion/data.zip', 'unzip_dir': 'artifacts/data_ingestion'}}
+[2024-08-27 11:36:34,694:INFO:common:yaml_file:params.yaml loaded successfully with content: {'param1': 'value1', 'param2': {'nested_param': 'value2'}}
+[2024-08-27 11:36:34,696:INFO:common:created directory at: artifacts
+[2024-08-27 11:36:34,697:INFO:common:created directory at: artifacts/data_ingestion
+[2024-08-27 11:36:36,946:INFO:381384157:artifacts/data_ingestion/data.zip download! with following info :
+ Connection: close
+Content-Length: 23627009
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "2e7409b328d118a1d37018be788babf8bf9640386387da766ac100e96efa3b93"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 63FE:266D51:62BBD:894F5:66CD6763
+Accept-Ranges: bytes
+Date: Tue, 27 Aug 2024 05:51:35 GMT
+Via: 1.1 varnish
+X-Served-By: cache-del21725-DEL
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1724737895.286832,VS0,VE342
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 7cd256e93b94fd193d47e018960ec3e971d1eda6
+Expires: Tue, 27 Aug 2024 05:56:35 GMT
+Source-Age: 0
+
+
+[2024-08-27 11:36:36,947:INFO:381384157:Extracting zip file to artifacts/data_ingestion
+[2024-08-27 11:36:36,968:ERROR:381384157:An error occurred during extraction: 
+[2024-08-27 11:36:36,969:ERROR:1716928455:An error occurred while processing data ingestion: 
+[2024-08-27 12:01:28,941:INFO:common:yaml_file:config/config.yaml loaded successfully with content: {'artifacts_root': 'artifacts', 'data_ingestion': {'root_dir': 'artifacts/data_ingestion', 'source_URL': 'https://github.com/Puzan789/Datas/raw/main/samsumdata.zip', 'local_data_file': 'artifacts/data_ingestion/data.zip', 'unzip_dir': 'artifacts/data_ingestion'}}
+[2024-08-27 12:01:28,943:INFO:common:yaml_file:params.yaml loaded successfully with content: {'param1': 'value1', 'param2': {'nested_param': 'value2'}}
+[2024-08-27 12:01:28,944:INFO:common:created directory at: artifacts
+[2024-08-27 12:01:28,945:INFO:common:created directory at: artifacts/data_ingestion
+[2024-08-27 12:01:28,946:ERROR:1716928455:An error occurred while processing data ingestion: Argument path of type <class 'str'> to <function get_size at 0x76bc6833c540> does not match annotation type <class 'pathlib.Path'>
+[2024-08-27 12:01:52,575:INFO:common:yaml_file:config/config.yaml loaded successfully with content: {'artifacts_root': 'artifacts', 'data_ingestion': {'root_dir': 'artifacts/data_ingestion', 'source_URL': 'https://github.com/Puzan789/Datas/raw/main/samsumdata.zip', 'local_data_file': 'artifacts/data_ingestion/data.zip', 'unzip_dir': 'artifacts/data_ingestion'}}
+[2024-08-27 12:01:52,577:INFO:common:yaml_file:params.yaml loaded successfully with content: {'param1': 'value1', 'param2': {'nested_param': 'value2'}}
+[2024-08-27 12:01:52,579:INFO:common:created directory at: artifacts
+[2024-08-27 12:01:52,580:INFO:common:created directory at: artifacts/data_ingestion
+[2024-08-27 12:01:55,007:INFO:747610327:artifacts/data_ingestion/data.zip download! with following info :
+ Connection: close
+Content-Length: 23627009
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "2e7409b328d118a1d37018be788babf8bf9640386387da766ac100e96efa3b93"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 63FE:266D51:62BBD:894F5:66CD6763
+Accept-Ranges: bytes
+Date: Tue, 27 Aug 2024 06:16:54 GMT
+Via: 1.1 varnish
+X-Served-By: cache-del21736-DEL
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1724739414.753173,VS0,VE260
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 467cbaae3f9d5ecd4ab671ce85f1b930b02a0e66
+Expires: Tue, 27 Aug 2024 06:21:54 GMT
+Source-Age: 0
+
+
+[2024-08-27 12:01:55,008:INFO:747610327:Extracting zip file to artifacts/data_ingestion
+[2024-08-27 12:01:55,022:ERROR:747610327:An unexpected error occurred during extraction: 
+[2024-08-27 12:01:55,023:ERROR:1716928455:An error occurred while processing data ingestion: 
+[2024-08-27 12:03:03,304:INFO:common:yaml_file:config/config.yaml loaded successfully with content: {'artifacts_root': 'artifacts', 'data_ingestion': {'root_dir': 'artifacts/data_ingestion', 'source_URL': 'https://github.com/Puzan789/Datas/raw/main/samsumdata.zip', 'local_data_file': 'artifacts/data_ingestion/data.zip', 'unzip_dir': 'artifacts/data_ingestion'}}
+[2024-08-27 12:03:03,307:INFO:common:yaml_file:params.yaml loaded successfully with content: {'param1': 'value1', 'param2': {'nested_param': 'value2'}}
+[2024-08-27 12:03:03,308:INFO:common:created directory at: artifacts
+[2024-08-27 12:03:03,310:INFO:common:created directory at: artifacts/data_ingestion
+[2024-08-27 12:03:03,312:ERROR:1716928455:An error occurred while processing data ingestion: Argument path of type <class 'str'> to <function get_size at 0x76bc6833c540> does not match annotation type <class 'pathlib.Path'>
+[2024-08-27 12:04:28,982:INFO:common:yaml_file:config/config.yaml loaded successfully with content: {'artifacts_root': 'artifacts', 'data_ingestion': {'root_dir': 'artifacts/data_ingestion', 'source_URL': 'https://github.com/Puzan789/Datas/raw/main/samsumdata.zip', 'local_data_file': 'artifacts/data_ingestion/data.zip', 'unzip_dir': 'artifacts/data_ingestion'}}
+[2024-08-27 12:04:28,985:INFO:common:yaml_file:params.yaml loaded successfully with content: {'param1': 'value1', 'param2': {'nested_param': 'value2'}}
+[2024-08-27 12:04:28,987:INFO:common:created directory at: artifacts
+[2024-08-27 12:04:28,988:INFO:common:created directory at: artifacts/data_ingestion
+[2024-08-27 12:04:28,990:ERROR:1716928455:An error occurred while processing data ingestion: Argument path of type <class 'str'> to <function get_size at 0x76bc6833c540> does not match annotation type <class 'pathlib.Path'>
+[2024-08-27 12:04:48,219:INFO:common:yaml_file:config/config.yaml loaded successfully with content: {'artifacts_root': 'artifacts', 'data_ingestion': {'root_dir': 'artifacts/data_ingestion', 'source_URL': 'https://github.com/Puzan789/Datas/raw/main/samsumdata.zip', 'local_data_file': 'artifacts/data_ingestion/data.zip', 'unzip_dir': 'artifacts/data_ingestion'}}
+[2024-08-27 12:04:48,224:INFO:common:yaml_file:params.yaml loaded successfully with content: {'param1': 'value1', 'param2': {'nested_param': 'value2'}}
+[2024-08-27 12:04:48,226:INFO:common:created directory at: artifacts
+[2024-08-27 12:04:48,228:INFO:common:created directory at: artifacts/data_ingestion
+[2024-08-27 12:04:48,229:ERROR:1716928455:An error occurred while processing data ingestion: Argument path of type <class 'str'> to <function get_size at 0x76bc6833c540> does not match annotation type <class 'pathlib.Path'>
+[2024-08-27 12:04:57,344:INFO:common:yaml_file:config/config.yaml loaded successfully with content: {'artifacts_root': 'artifacts', 'data_ingestion': {'root_dir': 'artifacts/data_ingestion', 'source_URL': 'https://github.com/Puzan789/Datas/raw/main/samsumdata.zip', 'local_data_file': 'artifacts/data_ingestion/data.zip', 'unzip_dir': 'artifacts/data_ingestion'}}
+[2024-08-27 12:04:57,347:INFO:common:yaml_file:params.yaml loaded successfully with content: {'param1': 'value1', 'param2': {'nested_param': 'value2'}}
+[2024-08-27 12:04:57,350:INFO:common:created directory at: artifacts
+[2024-08-27 12:04:57,351:INFO:common:created directory at: artifacts/data_ingestion
+[2024-08-27 12:04:59,831:INFO:4060748558:artifacts/data_ingestion/data.zip downloaded! with following info:
+Connection: close
+Content-Length: 23627009
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "2e7409b328d118a1d37018be788babf8bf9640386387da766ac100e96efa3b93"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 63FE:266D51:62BBD:894F5:66CD6763
+Accept-Ranges: bytes
+Date: Tue, 27 Aug 2024 06:19:58 GMT
+Via: 1.1 varnish
+X-Served-By: cache-del21732-DEL
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1724739599.553498,VS0,VE1
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 3bf9528ac632143da213102f5553b3d8dac5dc56
+Expires: Tue, 27 Aug 2024 06:24:58 GMT
+Source-Age: 185
+
+
+[2024-08-27 12:04:59,832:INFO:4060748558:Extracting zip file to artifacts/data_ingestion
+[2024-08-27 12:04:59,851:ERROR:4060748558:An unexpected error occurred during extraction: 
+[2024-08-27 12:04:59,852:ERROR:4060748558:Error details: 
+[2024-08-27 12:04:59,853:ERROR:1716928455:An error occurred while processing data ingestion: 
+[2024-08-27 12:06:21,829:INFO:common:yaml_file:config/config.yaml loaded successfully with content: {'artifacts_root': 'artifacts', 'data_ingestion': {'root_dir': 'artifacts/data_ingestion', 'source_URL': 'https://github.com/Puzan789/Datas/raw/main/samsumdata.zip', 'local_data_file': 'artifacts/data_ingestion/data.zip', 'unzip_dir': 'artifacts/data_ingestion'}}
+[2024-08-27 12:06:21,832:INFO:common:yaml_file:params.yaml loaded successfully with content: {'param1': 'value1', 'param2': {'nested_param': 'value2'}}
+[2024-08-27 12:06:21,834:INFO:common:created directory at: artifacts
+[2024-08-27 12:06:21,836:INFO:common:created directory at: artifacts/data_ingestion
+[2024-08-27 12:06:21,837:ERROR:1716928455:An error occurred while processing data ingestion: Argument path of type <class 'str'> to <function get_size at 0x76bc6833c540> does not match annotation type <class 'pathlib.Path'>
+[2024-08-27 12:09:19,546:INFO:common:yaml_file:config/config.yaml loaded successfully with content: {'artifacts_root': 'artifacts', 'data_ingestion': {'root_dir': 'artifacts/data_ingestion', 'source_URL': 'https://github.com/Puzan789/Datas/raw/main/samsumdata.zip', 'local_data_file': 'artifacts/data_ingestion/data.zip', 'unzip_dir': 'artifacts/data_ingestion'}}
+[2024-08-27 12:09:19,550:INFO:common:yaml_file:params.yaml loaded successfully with content: {'param1': 'value1', 'param2': {'nested_param': 'value2'}}
+[2024-08-27 12:09:19,551:INFO:common:created directory at: artifacts
+[2024-08-27 12:09:19,552:INFO:common:created directory at: artifacts/data_ingestion
+[2024-08-27 12:09:19,553:ERROR:1716928455:An error occurred while processing data ingestion: Argument path of type <class 'str'> to <function get_size at 0x76bc6833c540> does not match annotation type <class 'pathlib.Path'>
+[2024-08-27 12:14:45,739:INFO:common:yaml_file:config/config.yaml loaded successfully with content: {'artifacts_root': 'artifacts', 'data_ingestion': {'root_dir': 'artifacts/data_ingestion', 'source_URL': 'https://github.com/Puzan789/Datas/raw/main/samsumdata.zip', 'local_data_file': 'artifacts/data_ingestion/data.zip', 'unzip_dir': 'artifacts/data_ingestion'}}
+[2024-08-27 12:14:45,744:INFO:common:yaml_file:params.yaml loaded successfully with content: {'param1': 'value1', 'param2': {'nested_param': 'value2'}}
+[2024-08-27 12:14:45,747:INFO:common:created directory at: artifacts
+[2024-08-27 12:14:45,748:INFO:common:created directory at: artifacts/data_ingestion
+[2024-08-27 12:14:45,749:INFO:1370803912:File already exists with size:  ~0 KB
+[2024-08-27 12:14:45,750:INFO:1370803912:Extracting zip file to artifacts/data_ingestion
+[2024-08-27 12:14:45,752:ERROR:1370803912:Bad zip file: artifacts/data_ingestion/data.zip
+[2024-08-27 12:14:45,752:ERROR:1716928455:An error occurred while processing data ingestion: File is not a zip file
+[2024-08-27 12:18:55,075:INFO:common:yaml_file:config/config.yaml loaded successfully with content: {'artifacts_root': 'artifacts', 'data_ingestion': {'root_dir': 'artifacts/data_ingestion', 'source_URL': 'https://github.com/Puzan789/Datas/raw/main/samsumdata.zip', 'local_data_file': 'artifacts/data_ingestion/data.zip', 'unzip_dir': 'artifacts/data_ingestion'}}
+[2024-08-27 12:18:55,078:INFO:common:yaml_file:params.yaml loaded successfully with content: {'param1': 'value1', 'param2': {'nested_param': 'value2'}}
+[2024-08-27 12:18:55,079:INFO:common:created directory at: artifacts
+[2024-08-27 12:18:55,080:INFO:common:created directory at: artifacts/data_ingestion
+[2024-08-27 12:18:57,370:INFO:2841846646:artifacts/data_ingestion/data.zip downloaded! with following info:
+Connection: close
+Content-Length: 23627009
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "2e7409b328d118a1d37018be788babf8bf9640386387da766ac100e96efa3b93"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 63FE:266D51:62BBD:894F5:66CD6763
+Accept-Ranges: bytes
+Date: Tue, 27 Aug 2024 06:33:56 GMT
+Via: 1.1 varnish
+X-Served-By: cache-del21747-DEL
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1724740436.215862,VS0,VE331
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 35660152a7275513c487b77b3874de1744bf3b02
+Expires: Tue, 27 Aug 2024 06:38:56 GMT
+Source-Age: 0
+
+
+[2024-08-27 12:18:57,373:INFO:2841846646:Extracting zip file to artifacts/data_ingestion
+[2024-08-27 12:18:57,392:ERROR:2841846646:An unexpected error occurred during extraction: 
+[2024-08-27 12:18:57,393:ERROR:2841846646:Error type: EOFError
+[2024-08-27 12:18:57,394:ERROR:2841846646:Error details: 
+[2024-08-27 12:18:57,395:ERROR:1716928455:An error occurred while processing data ingestion: 
+[2024-08-27 12:21:33,834:INFO:common:yaml_file:config/config.yaml loaded successfully
+[2024-08-27 12:21:33,836:INFO:common:yaml_file:params.yaml loaded successfully
+[2024-08-27 12:21:33,838:INFO:common:created directory at: artifacts
+[2024-08-27 12:21:33,839:INFO:common:created directory at: artifacts/data_ingestion
+[2024-08-27 12:21:35,756:INFO:2841846646:artifacts/data_ingestion/data.zip downloaded! with following info:
+Connection: close
+Content-Length: 23627009
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "2e7409b328d118a1d37018be788babf8bf9640386387da766ac100e96efa3b93"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 63FE:266D51:62BBD:894F5:66CD6763
+Accept-Ranges: bytes
+Date: Tue, 27 Aug 2024 06:36:34 GMT
+Via: 1.1 varnish
+X-Served-By: cache-del21741-DEL
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1724740595.991799,VS0,VE1
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: fc46f125de222aa1da8cbc0ad29418755ec87cea
+Expires: Tue, 27 Aug 2024 06:41:34 GMT
+Source-Age: 158
+
+
+[2024-08-27 12:21:35,758:INFO:2841846646:Extracting zip file to artifacts/data_ingestion
+[2024-08-27 12:21:35,777:ERROR:2841846646:An unexpected error occurred during extraction: 
+[2024-08-27 12:21:35,778:ERROR:2841846646:Error type: EOFError
+[2024-08-27 12:21:35,779:ERROR:2841846646:Error details: 
+[2024-08-27 12:21:35,780:ERROR:1716928455:An error occurred while processing data ingestion: 
+[2024-08-27 12:22:36,867:INFO:common:yaml_file:config/config.yaml loaded successfully
+[2024-08-27 12:22:36,868:INFO:common:yaml_file:params.yaml loaded successfully
+[2024-08-27 12:22:36,869:INFO:common:created directory at: artifacts
+[2024-08-27 12:22:36,870:INFO:common:created directory at: artifacts/data_ingestion
+[2024-08-27 12:22:39,439:INFO:2841846646:artifacts/data_ingestion/data.zip downloaded! with following info:
+Connection: close
+Content-Length: 23627009
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "2e7409b328d118a1d37018be788babf8bf9640386387da766ac100e96efa3b93"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 63FE:266D51:62BBD:894F5:66CD6763
+Accept-Ranges: bytes
+Date: Tue, 27 Aug 2024 06:37:37 GMT
+Via: 1.1 varnish
+X-Served-By: cache-del21746-DEL
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1724740658.708885,VS0,VE1
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: afb6735c0afdecee29ec44e6448a4dfd51457320
+Expires: Tue, 27 Aug 2024 06:42:37 GMT
+Source-Age: 221
+
+
+[2024-08-27 12:22:39,440:INFO:2841846646:Extracting zip file to artifacts/data_ingestion
+[2024-08-27 12:22:39,455:ERROR:2841846646:An unexpected error occurred during extraction: 
+[2024-08-27 12:22:39,456:ERROR:2841846646:Error type: EOFError
+[2024-08-27 12:22:39,457:ERROR:2841846646:Error details: 
+[2024-08-27 12:22:39,458:ERROR:1716928455:An error occurred while processing data ingestion: 
+[2024-08-27 12:23:28,244:INFO:common:yaml_file:config/config.yaml loaded successfully
+[2024-08-27 12:23:28,245:INFO:common:yaml_file:params.yaml loaded successfully
+[2024-08-27 12:23:28,247:INFO:common:created directory at: artifacts
+[2024-08-27 12:23:28,248:INFO:common:created directory at: artifacts/data_ingestion
+[2024-08-27 12:23:30,720:INFO:2841846646:artifacts/data_ingestion/data.zip downloaded! with following info:
+Connection: close
+Content-Length: 7903594
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "dbc016a060da18070593b83afff580c9b300f0b6ea4147a7988433e04df246ca"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 3BB0:26A119:76B98:9FFA0:66CD7465
+Accept-Ranges: bytes
+Date: Tue, 27 Aug 2024 06:38:30 GMT
+Via: 1.1 varnish
+X-Served-By: cache-del21732-DEL
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1724740710.566718,VS0,VE707
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 262afd52741fd3913973ff98da8d3b9c2249f3e0
+Expires: Tue, 27 Aug 2024 06:43:30 GMT
+Source-Age: 0
+
+
+[2024-08-27 12:23:30,721:INFO:2841846646:Extracting zip file to artifacts/data_ingestion
+[2024-08-27 12:23:30,834:INFO:2841846646:Extraction completed successfully.
