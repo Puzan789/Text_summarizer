@@ -1,0 +1,7 @@
+[2024-09-12 14:31:15,350:INFO:common:yaml_file:config/config.yaml loaded successfully
+[2024-09-12 14:31:15,355:INFO:common:yaml_file:params.yaml loaded successfully
+[2024-09-12 14:31:15,357:INFO:common:created directory at: artifacts
+[2024-09-12 14:31:15,360:INFO:common:created directory at: artifacts/data_ingestion
+[2024-09-12 14:31:15,361:INFO:2841846646:File already exists with size:  ~7718 KB
+[2024-09-12 14:31:15,363:INFO:2841846646:Extracting zip file to artifacts/data_ingestion
+[2024-09-12 14:31:15,735:INFO:2841846646:Extraction completed successfully.

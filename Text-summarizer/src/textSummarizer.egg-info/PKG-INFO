@@ -4,4 +4,18 @@ Version: 0.0.0
 Summary: A text summarization tool
 Author: puzan789
 Author-email: puzan936@gmail.com
-Project-URL: Bug Tracker, https://github.com/puzan789/Text-summarizer/issues
+Project-URL: Bug Tracker, https://github.com/puzan789/Text_summarizer/issues
+
+## Workflows
+
+1. update the Config.yaml file
+2. update the params.yaml file
+3. update the entity
+4. update the configuration manager in the src config
+5. Update the components 
+6. Update the pipeline 
+7. Update the main.py 
+8. Update the app.py 
+
+#### 
+1.Data ingestion component
