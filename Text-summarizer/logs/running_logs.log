@@ -438,3 +438,48 @@ Source-Age: 0
 [2024-09-12 14:37:03,942:INFO:data_ingestion:Extracting zip file to artifacts/data_ingestion
 [2024-09-12 14:37:04,713:INFO:data_ingestion:Extraction completed successfully.
 [2024-09-12 14:37:04,713:INFO:main:<><><> stage DATA INGESTION STAGE completed successfully <><><>
+[2024-09-12 16:29:44,499:INFO:common:yaml_file:config/config.yaml loaded successfully
+[2024-09-12 16:29:44,507:INFO:common:yaml_file:params.yaml loaded successfully
+[2024-09-12 16:29:44,509:INFO:common:created directory at: artifacts
+[2024-09-12 16:29:44,510:INFO:common:created directory at: artifacts/data_validation
+[2024-09-12 16:39:02,283:INFO:main:<><><> stage DATA INGESTION STAGE started <><><>
+[2024-09-12 16:39:02,286:INFO:common:yaml_file:config/config.yaml loaded successfully
+[2024-09-12 16:39:02,287:INFO:common:yaml_file:params.yaml loaded successfully
+[2024-09-12 16:39:02,287:INFO:common:created directory at: artifacts
+[2024-09-12 16:39:02,288:INFO:common:created directory at: artifacts/data_ingestion
+[2024-09-12 16:39:04,614:INFO:data_ingestion:artifacts/data_ingestion/data.zip downloaded! with following info:
+Connection: close
+Content-Length: 7903594
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "dbc016a060da18070593b83afff580c9b300f0b6ea4147a7988433e04df246ca"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 5F89:1C9F54:71E97C:8F41A9:66E2C84A
+Accept-Ranges: bytes
+Date: Thu, 12 Sep 2024 10:54:04 GMT
+Via: 1.1 varnish
+X-Served-By: cache-del21729-DEL
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1726138443.325915,VS0,VE854
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 90db7931202c6e04227d4e435747f12348dd41f4
+Expires: Thu, 12 Sep 2024 10:59:04 GMT
+Source-Age: 0
+
+
+[2024-09-12 16:39:04,616:INFO:data_ingestion:Extracting zip file to artifacts/data_ingestion
+[2024-09-12 16:39:05,244:INFO:data_ingestion:Extraction completed successfully.
+[2024-09-12 16:39:05,245:INFO:main:<><><> stage DATA INGESTION STAGE completed successfully <><><>
+[2024-09-12 16:39:05,246:INFO:main:<><><> stage DATA VALIDATION STAGE started <><><>
+[2024-09-12 16:39:05,249:INFO:common:yaml_file:config/config.yaml loaded successfully
+[2024-09-12 16:39:05,251:INFO:common:yaml_file:params.yaml loaded successfully
+[2024-09-12 16:39:05,251:INFO:common:created directory at: artifacts
+[2024-09-12 16:39:05,251:INFO:common:created directory at: artifacts/data_validation
+[2024-09-12 16:39:05,253:INFO:main:<><><> stage DATA VALIDATION STAGE completed successfully <><><>
