@@ -632,3 +632,498 @@ Source-Age: 111
 [2024-09-12 19:12:47,392:INFO:common:yaml_file:config/config.yaml loaded successfully
 [2024-09-12 19:12:47,396:INFO:common:yaml_file:params.yaml loaded successfully
 [2024-09-12 19:12:47,397:INFO:common:created directory at: artifacts
+[2024-09-12 20:24:51,874:INFO:config:PyTorch version 2.4.0 available.
+[2024-09-12 20:24:52,043:INFO:main:<><><> stage DATA INGESTION STAGE started <><><>
+[2024-09-12 20:24:52,045:INFO:common:yaml_file:config/config.yaml loaded successfully
+[2024-09-12 20:24:52,047:INFO:common:yaml_file:params.yaml loaded successfully
+[2024-09-12 20:24:52,047:INFO:common:created directory at: artifacts
+[2024-09-12 20:24:52,048:INFO:common:created directory at: artifacts/data_ingestion
+[2024-09-12 20:24:53,970:INFO:data_ingestion:artifacts/data_ingestion/data.zip downloaded! with following info:
+Connection: close
+Content-Length: 7903594
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "dbc016a060da18070593b83afff580c9b300f0b6ea4147a7988433e04df246ca"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 46B0:15C8F7:456043:547DE2:66E2FD38
+Accept-Ranges: bytes
+Date: Thu, 12 Sep 2024 14:39:53 GMT
+Via: 1.1 varnish
+X-Served-By: cache-del21720-DEL
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1726151993.923245,VS0,VE548
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 04703e544d3f2d56071735dd1eb7900851eb9d02
+Expires: Thu, 12 Sep 2024 14:44:53 GMT
+Source-Age: 0
+
+
+[2024-09-12 20:24:53,970:INFO:data_ingestion:Extracting zip file to artifacts/data_ingestion
+[2024-09-12 20:24:54,279:INFO:data_ingestion:Extraction completed successfully.
+[2024-09-12 20:24:54,279:INFO:main:<><><> stage DATA INGESTION STAGE completed successfully <><><>
+[2024-09-12 20:24:54,279:INFO:main:<><><> stage DATA VALIDATION STAGE started <><><>
+[2024-09-12 20:24:54,280:INFO:common:yaml_file:config/config.yaml loaded successfully
+[2024-09-12 20:24:54,282:INFO:common:yaml_file:params.yaml loaded successfully
+[2024-09-12 20:24:54,282:INFO:common:created directory at: artifacts
+[2024-09-12 20:24:54,282:INFO:common:created directory at: artifacts/data_validation
+[2024-09-12 20:24:54,283:INFO:main:<><><> stage DATA VALIDATION STAGE completed successfully <><><>
+[2024-09-12 20:24:54,283:INFO:main:<><><> stage DATA TRANSFORMATION STAGE started <><><>
+[2024-09-12 20:24:54,285:INFO:common:yaml_file:config/config.yaml loaded successfully
+[2024-09-12 20:24:54,286:INFO:common:yaml_file:params.yaml loaded successfully
+[2024-09-12 20:24:54,286:INFO:common:created directory at: artifacts
+[2024-09-12 20:24:54,286:INFO:common:created directory at: artifacts/data_transformation
+[2024-09-12 20:24:58,423:INFO:main:<><><> stage DATA TRANSFORMATION STAGE completed successfully <><><>
+[2024-09-12 20:25:23,676:INFO:config:PyTorch version 2.4.0 available.
+[2024-09-12 20:25:23,843:INFO:common:yaml_file:config/config.yaml loaded successfully
+[2024-09-12 20:25:23,845:INFO:common:yaml_file:params.yaml loaded successfully
+[2024-09-12 20:25:23,846:INFO:common:created directory at: artifacts
+[2024-09-12 20:30:14,007:INFO:common:yaml_file:config/config.yaml loaded successfully
+[2024-09-12 20:30:14,011:INFO:common:yaml_file:params.yaml loaded successfully
+[2024-09-12 20:30:14,012:INFO:common:created directory at: artifacts
+[2024-09-12 20:32:11,767:INFO:common:yaml_file:config/config.yaml loaded successfully
+[2024-09-12 20:32:11,776:INFO:common:yaml_file:params.yaml loaded successfully
+[2024-09-12 20:32:11,778:INFO:common:created directory at: artifacts
+[2024-09-12 20:33:39,641:INFO:config:PyTorch version 2.4.0 available.
+[2024-09-12 20:33:39,858:INFO:common:yaml_file:config/config.yaml loaded successfully
+[2024-09-12 20:33:39,862:INFO:common:yaml_file:params.yaml loaded successfully
+[2024-09-12 20:33:39,864:INFO:common:created directory at: artifacts
+[2024-09-12 20:35:08,050:INFO:common:yaml_file:config/config.yaml loaded successfully
+[2024-09-12 20:35:08,054:INFO:common:yaml_file:params.yaml loaded successfully
+[2024-09-12 20:35:08,055:INFO:common:created directory at: artifacts
+[2024-09-12 20:35:33,601:INFO:config:PyTorch version 2.4.0 available.
+[2024-09-12 20:35:33,814:INFO:common:yaml_file:config/config.yaml loaded successfully
+[2024-09-12 20:35:33,817:INFO:common:yaml_file:params.yaml loaded successfully
+[2024-09-12 20:35:33,818:INFO:common:created directory at: artifacts
+[2024-09-12 20:38:05,558:INFO:common:yaml_file:config/config.yaml loaded successfully
+[2024-09-12 20:38:05,561:INFO:common:yaml_file:params.yaml loaded successfully
+[2024-09-12 20:38:05,563:INFO:common:created directory at: artifacts
+[2024-09-12 20:38:46,413:INFO:config:PyTorch version 2.4.0 available.
+[2024-09-12 20:38:46,742:INFO:common:yaml_file:config/config.yaml loaded successfully
+[2024-09-12 20:38:46,747:INFO:common:yaml_file:params.yaml loaded successfully
+[2024-09-12 20:38:46,753:INFO:common:created directory at: artifacts
+[2024-09-12 20:42:42,706:INFO:config:PyTorch version 2.4.0 available.
+[2024-09-12 20:43:05,263:INFO:common:yaml_file:config/config.yaml loaded successfully
+[2024-09-12 20:43:05,267:INFO:common:yaml_file:params.yaml loaded successfully
+[2024-09-12 20:43:05,268:INFO:common:created directory at: artifacts
+[2024-09-12 20:43:59,346:INFO:common:yaml_file:config/config.yaml loaded successfully
+[2024-09-12 20:43:59,349:INFO:common:yaml_file:params.yaml loaded successfully
+[2024-09-12 20:43:59,351:INFO:common:created directory at: artifacts
+[2024-09-12 20:44:27,633:INFO:config:PyTorch version 2.4.0 available.
+[2024-09-12 20:44:27,853:INFO:common:yaml_file:config/config.yaml loaded successfully
+[2024-09-12 20:44:27,856:INFO:common:yaml_file:params.yaml loaded successfully
+[2024-09-12 20:44:27,858:INFO:common:created directory at: artifacts
+[2024-09-12 21:04:00,363:INFO:config:PyTorch version 2.4.0 available.
+[2024-09-12 21:04:00,571:INFO:common:yaml_file:config/config.yaml loaded successfully
+[2024-09-12 21:04:00,574:INFO:common:yaml_file:params.yaml loaded successfully
+[2024-09-12 21:04:00,575:INFO:common:created directory at: artifacts
+[2024-09-12 21:57:52,051:INFO:config:PyTorch version 2.4.0 available.
+[2024-09-12 21:57:53,741:INFO:main:<><><> stage DATA INGESTION STAGE started <><><>
+[2024-09-12 21:57:53,743:INFO:common:yaml_file:config/config.yaml loaded successfully
+[2024-09-12 21:57:53,745:INFO:common:yaml_file:params.yaml loaded successfully
+[2024-09-12 21:57:53,745:INFO:common:created directory at: artifacts
+[2024-09-12 21:57:53,746:INFO:common:created directory at: artifacts/data_ingestion
+[2024-09-12 21:57:55,711:INFO:data_ingestion:artifacts/data_ingestion/data.zip downloaded! with following info:
+Connection: close
+Content-Length: 7903594
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "dbc016a060da18070593b83afff580c9b300f0b6ea4147a7988433e04df246ca"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 5E34:119D05:B4AF5:D0BB5:66E31306
+Accept-Ranges: bytes
+Date: Thu, 12 Sep 2024 16:12:55 GMT
+Via: 1.1 varnish
+X-Served-By: cache-del21736-DEL
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1726157575.559856,VS0,VE719
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: c979228662b385295f3aefede01b6d01cd5532a3
+Expires: Thu, 12 Sep 2024 16:17:55 GMT
+Source-Age: 0
+
+
+[2024-09-12 21:57:55,711:INFO:data_ingestion:Extracting zip file to artifacts/data_ingestion
+[2024-09-12 21:57:56,491:INFO:data_ingestion:Extraction completed successfully.
+[2024-09-12 21:57:56,491:INFO:main:<><><> stage DATA INGESTION STAGE completed successfully <><><>
+[2024-09-12 21:57:56,491:INFO:main:<><><> stage DATA VALIDATION STAGE started <><><>
+[2024-09-12 21:57:56,492:INFO:common:yaml_file:config/config.yaml loaded successfully
+[2024-09-12 21:57:56,493:INFO:common:yaml_file:params.yaml loaded successfully
+[2024-09-12 21:57:56,494:INFO:common:created directory at: artifacts
+[2024-09-12 21:57:56,494:INFO:common:created directory at: artifacts/data_validation
+[2024-09-12 21:57:56,495:INFO:main:<><><> stage DATA VALIDATION STAGE completed successfully <><><>
+[2024-09-12 21:57:56,495:INFO:main:<><><> stage DATA TRANSFORMATION STAGE started <><><>
+[2024-09-12 21:57:56,498:INFO:common:yaml_file:config/config.yaml loaded successfully
+[2024-09-12 21:57:56,500:INFO:common:yaml_file:params.yaml loaded successfully
+[2024-09-12 21:57:56,502:INFO:common:created directory at: artifacts
+[2024-09-12 21:57:56,505:INFO:common:created directory at: artifacts/data_transformation
+[2024-09-12 21:58:03,226:ERROR:main:[Errno 2] No such file or directory: '/media/puzan/NewVolume/textsummarizer/Text-summarizer/artifacts/data_ingestion/samsum_dataset/train/tmps3q9808_'
+Traceback (most recent call last):
+  File "/home/puzan/anaconda3/envs/textsumm/lib/python3.12/shutil.py", line 847, in move
+    os.rename(src, real_dst)
+FileNotFoundError: [Errno 2] No such file or directory: '/media/puzan/NewVolume/textsummarizer/Text-summarizer/artifacts/data_ingestion/samsum_dataset/train/tmps3q9808_' -> '/media/puzan/NewVolume/textsummarizer/Text-summarizer/artifacts/data_ingestion/samsum_dataset/train/cache-9f340a78f339e61e.arrow'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/media/puzan/NewVolume/textsummarizer/Text-summarizer/main.py", line 34, in <module>
+    data_transformation.main()
+  File "/media/puzan/NewVolume/textsummarizer/Text-summarizer/src/textSummarizer/pipeline/stage_03_data_transformation.py", line 16, in main
+    raise e
+  File "/media/puzan/NewVolume/textsummarizer/Text-summarizer/src/textSummarizer/pipeline/stage_03_data_transformation.py", line 14, in main
+    data_transformation.convert()
+  File "/media/puzan/NewVolume/textsummarizer/Text-summarizer/src/textSummarizer/components/data_transformation.py", line 24, in convert
+    dataset_samsum_pt=dataset_samsum.map(self.convert_examples_to_features,batched=True)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/puzan/anaconda3/envs/textsumm/lib/python3.12/site-packages/datasets/dataset_dict.py", line 870, in map
+    k: dataset.map(
+       ^^^^^^^^^^^^
+  File "/home/puzan/anaconda3/envs/textsumm/lib/python3.12/site-packages/datasets/arrow_dataset.py", line 602, in wrapper
+    out: Union["Dataset", "DatasetDict"] = func(self, *args, **kwargs)
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/puzan/anaconda3/envs/textsumm/lib/python3.12/site-packages/datasets/arrow_dataset.py", line 567, in wrapper
+    out: Union["Dataset", "DatasetDict"] = func(self, *args, **kwargs)
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/puzan/anaconda3/envs/textsumm/lib/python3.12/site-packages/datasets/arrow_dataset.py", line 3167, in map
+    for rank, done, content in Dataset._map_single(**dataset_kwargs):
+  File "/home/puzan/anaconda3/envs/textsumm/lib/python3.12/site-packages/datasets/arrow_dataset.py", line 3603, in _map_single
+    shutil.move(tmp_file.name, cache_file_name)
+  File "/home/puzan/anaconda3/envs/textsumm/lib/python3.12/shutil.py", line 867, in move
+    copy_function(src, real_dst)
+  File "/home/puzan/anaconda3/envs/textsumm/lib/python3.12/shutil.py", line 475, in copy2
+    copyfile(src, dst, follow_symlinks=follow_symlinks)
+  File "/home/puzan/anaconda3/envs/textsumm/lib/python3.12/shutil.py", line 260, in copyfile
+    with open(src, 'rb') as fsrc:
+         ^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/media/puzan/NewVolume/textsummarizer/Text-summarizer/artifacts/data_ingestion/samsum_dataset/train/tmps3q9808_'
+[2024-09-12 22:00:08,862:INFO:config:PyTorch version 2.4.0 available.
+[2024-09-12 22:00:09,503:INFO:main:<><><> stage DATA INGESTION STAGE started <><><>
+[2024-09-12 22:00:09,504:INFO:common:yaml_file:config/config.yaml loaded successfully
+[2024-09-12 22:00:09,506:INFO:common:yaml_file:params.yaml loaded successfully
+[2024-09-12 22:00:09,506:INFO:common:created directory at: artifacts
+[2024-09-12 22:00:09,506:INFO:common:created directory at: artifacts/data_ingestion
+[2024-09-12 22:00:10,799:INFO:data_ingestion:artifacts/data_ingestion/data.zip downloaded! with following info:
+Connection: close
+Content-Length: 7903594
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "dbc016a060da18070593b83afff580c9b300f0b6ea4147a7988433e04df246ca"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 5E34:119D05:B4AF5:D0BB5:66E31306
+Accept-Ranges: bytes
+Date: Thu, 12 Sep 2024 16:15:10 GMT
+Via: 1.1 varnish
+X-Served-By: cache-del21747-DEL
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1726157710.347336,VS0,VE1
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 8bc006c5f43890b223e3a91928477048367b44f5
+Expires: Thu, 12 Sep 2024 16:20:10 GMT
+Source-Age: 135
+
+
+[2024-09-12 22:00:10,799:INFO:data_ingestion:Extracting zip file to artifacts/data_ingestion
+[2024-09-12 22:00:11,082:INFO:data_ingestion:Extraction completed successfully.
+[2024-09-12 22:00:11,082:INFO:main:<><><> stage DATA INGESTION STAGE completed successfully <><><>
+[2024-09-12 22:00:11,082:INFO:main:<><><> stage DATA VALIDATION STAGE started <><><>
+[2024-09-12 22:00:11,084:INFO:common:yaml_file:config/config.yaml loaded successfully
+[2024-09-12 22:00:11,086:INFO:common:yaml_file:params.yaml loaded successfully
+[2024-09-12 22:00:11,086:INFO:common:created directory at: artifacts
+[2024-09-12 22:00:11,086:INFO:common:created directory at: artifacts/data_validation
+[2024-09-12 22:00:11,087:INFO:main:<><><> stage DATA VALIDATION STAGE completed successfully <><><>
+[2024-09-12 22:00:11,087:INFO:main:<><><> stage DATA TRANSFORMATION STAGE started <><><>
+[2024-09-12 22:00:11,089:INFO:common:yaml_file:config/config.yaml loaded successfully
+[2024-09-12 22:00:11,090:INFO:common:yaml_file:params.yaml loaded successfully
+[2024-09-12 22:00:11,090:INFO:common:created directory at: artifacts
+[2024-09-12 22:00:11,090:INFO:common:created directory at: artifacts/data_transformation
+[2024-09-12 22:00:14,981:ERROR:main:[Errno 2] No such file or directory: '/media/puzan/NewVolume/textsummarizer/Text-summarizer/artifacts/data_ingestion/samsum_dataset/train/tmpyqmw9011'
+Traceback (most recent call last):
+  File "/home/puzan/anaconda3/envs/textsumm/lib/python3.12/shutil.py", line 847, in move
+    os.rename(src, real_dst)
+FileNotFoundError: [Errno 2] No such file or directory: '/media/puzan/NewVolume/textsummarizer/Text-summarizer/artifacts/data_ingestion/samsum_dataset/train/tmpyqmw9011' -> '/media/puzan/NewVolume/textsummarizer/Text-summarizer/artifacts/data_ingestion/samsum_dataset/train/cache-9f340a78f339e61e.arrow'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/media/puzan/NewVolume/textsummarizer/Text-summarizer/main.py", line 34, in <module>
+    data_transformation.main()
+  File "/media/puzan/NewVolume/textsummarizer/Text-summarizer/src/textSummarizer/pipeline/stage_03_data_transformation.py", line 16, in main
+    raise e
+  File "/media/puzan/NewVolume/textsummarizer/Text-summarizer/src/textSummarizer/pipeline/stage_03_data_transformation.py", line 14, in main
+    data_transformation.convert()
+  File "/media/puzan/NewVolume/textsummarizer/Text-summarizer/src/textSummarizer/components/data_transformation.py", line 24, in convert
+    dataset_samsum_pt=dataset_samsum.map(self.convert_examples_to_features,batched=True)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/puzan/anaconda3/envs/textsumm/lib/python3.12/site-packages/datasets/dataset_dict.py", line 870, in map
+    k: dataset.map(
+       ^^^^^^^^^^^^
+  File "/home/puzan/anaconda3/envs/textsumm/lib/python3.12/site-packages/datasets/arrow_dataset.py", line 602, in wrapper
+    out: Union["Dataset", "DatasetDict"] = func(self, *args, **kwargs)
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/puzan/anaconda3/envs/textsumm/lib/python3.12/site-packages/datasets/arrow_dataset.py", line 567, in wrapper
+    out: Union["Dataset", "DatasetDict"] = func(self, *args, **kwargs)
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/puzan/anaconda3/envs/textsumm/lib/python3.12/site-packages/datasets/arrow_dataset.py", line 3167, in map
+    for rank, done, content in Dataset._map_single(**dataset_kwargs):
+  File "/home/puzan/anaconda3/envs/textsumm/lib/python3.12/site-packages/datasets/arrow_dataset.py", line 3603, in _map_single
+    shutil.move(tmp_file.name, cache_file_name)
+  File "/home/puzan/anaconda3/envs/textsumm/lib/python3.12/shutil.py", line 867, in move
+    copy_function(src, real_dst)
+  File "/home/puzan/anaconda3/envs/textsumm/lib/python3.12/shutil.py", line 475, in copy2
+    copyfile(src, dst, follow_symlinks=follow_symlinks)
+  File "/home/puzan/anaconda3/envs/textsumm/lib/python3.12/shutil.py", line 260, in copyfile
+    with open(src, 'rb') as fsrc:
+         ^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/media/puzan/NewVolume/textsummarizer/Text-summarizer/artifacts/data_ingestion/samsum_dataset/train/tmpyqmw9011'
+[2024-09-12 22:00:38,285:INFO:config:PyTorch version 2.4.0 available.
+[2024-09-12 22:00:38,887:INFO:main:<><><> stage DATA INGESTION STAGE started <><><>
+[2024-09-12 22:00:38,889:INFO:common:yaml_file:config/config.yaml loaded successfully
+[2024-09-12 22:00:38,890:INFO:common:yaml_file:params.yaml loaded successfully
+[2024-09-12 22:00:38,890:INFO:common:created directory at: artifacts
+[2024-09-12 22:00:38,890:INFO:common:created directory at: artifacts/data_ingestion
+[2024-09-12 22:00:39,704:INFO:data_ingestion:artifacts/data_ingestion/data.zip downloaded! with following info:
+Connection: close
+Content-Length: 7903594
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "dbc016a060da18070593b83afff580c9b300f0b6ea4147a7988433e04df246ca"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 5E34:119D05:B4AF5:D0BB5:66E31306
+Accept-Ranges: bytes
+Date: Thu, 12 Sep 2024 16:15:39 GMT
+Via: 1.1 varnish
+X-Served-By: cache-del21725-DEL
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1726157739.261793,VS0,VE1
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 96932ee08300688288e6a0062a25afe7c68352ac
+Expires: Thu, 12 Sep 2024 16:20:39 GMT
+Source-Age: 164
+
+
+[2024-09-12 22:00:39,704:ERROR:data_ingestion:An error occurred while downloading the file: [Errno 2] No such file or directory: 'artifacts/data_ingestion/data.zip'
+[2024-09-12 22:00:39,705:ERROR:stage_01_data_ingestion:An error occurred while processing data ingestion: [Errno 2] No such file or directory: 'artifacts/data_ingestion/data.zip'
+[2024-09-12 22:00:39,705:INFO:main:<><><> stage DATA INGESTION STAGE completed successfully <><><>
+[2024-09-12 22:00:39,705:INFO:main:<><><> stage DATA VALIDATION STAGE started <><><>
+[2024-09-12 22:00:39,708:INFO:common:yaml_file:config/config.yaml loaded successfully
+[2024-09-12 22:00:39,711:INFO:common:yaml_file:params.yaml loaded successfully
+[2024-09-12 22:00:39,712:INFO:common:created directory at: artifacts
+[2024-09-12 22:00:39,712:INFO:common:created directory at: artifacts/data_validation
+[2024-09-12 22:00:39,713:ERROR:main:[Errno 2] No such file or directory: 'artifacts/data_ingestion/samsum_dataset'
+Traceback (most recent call last):
+  File "/media/puzan/NewVolume/textsummarizer/Text-summarizer/main.py", line 23, in <module>
+    data_validation.main()
+  File "/media/puzan/NewVolume/textsummarizer/Text-summarizer/src/textSummarizer/pipeline/stage_02_datavalidation.py", line 17, in main
+    raise e
+  File "/media/puzan/NewVolume/textsummarizer/Text-summarizer/src/textSummarizer/pipeline/stage_02_datavalidation.py", line 15, in main
+    data_validation.validate_all_files_exist()
+  File "/media/puzan/NewVolume/textsummarizer/Text-summarizer/src/textSummarizer/components/data_validation.py", line 24, in validate_all_files_exist
+    raise e
+  File "/media/puzan/NewVolume/textsummarizer/Text-summarizer/src/textSummarizer/components/data_validation.py", line 12, in validate_all_files_exist
+    all_files=os.listdir(os.path.join("artifacts","data_ingestion","samsum_dataset"))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'artifacts/data_ingestion/samsum_dataset'
+[2024-09-12 22:02:50,067:INFO:config:PyTorch version 2.4.0 available.
+[2024-09-12 22:02:50,720:INFO:main:<><><> stage DATA INGESTION STAGE started <><><>
+[2024-09-12 22:02:50,721:INFO:common:yaml_file:config/config.yaml loaded successfully
+[2024-09-12 22:02:50,723:INFO:common:yaml_file:params.yaml loaded successfully
+[2024-09-12 22:02:50,723:INFO:common:created directory at: artifacts
+[2024-09-12 22:02:50,724:INFO:common:created directory at: artifacts/data_ingestion
+[2024-09-12 22:02:53,412:INFO:data_ingestion:artifacts/data_ingestion/data.zip downloaded! with following info:
+Connection: close
+Content-Length: 7903594
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "dbc016a060da18070593b83afff580c9b300f0b6ea4147a7988433e04df246ca"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 5E34:119D05:B4AF5:D0BB5:66E31306
+Accept-Ranges: bytes
+Date: Thu, 12 Sep 2024 16:17:51 GMT
+Via: 1.1 varnish
+X-Served-By: cache-del21723-DEL
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1726157872.632517,VS0,VE1
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: db64c793cf73d6e4915c7da43cd21cf56528384f
+Expires: Thu, 12 Sep 2024 16:22:51 GMT
+Source-Age: 297
+
+
+[2024-09-12 22:02:53,413:INFO:data_ingestion:Extracting zip file to artifacts/data_ingestion
+[2024-09-12 22:02:53,717:INFO:data_ingestion:Extraction completed successfully.
+[2024-09-12 22:02:53,717:INFO:main:<><><> stage DATA INGESTION STAGE completed successfully <><><>
+[2024-09-12 22:02:53,717:INFO:main:<><><> stage DATA VALIDATION STAGE started <><><>
+[2024-09-12 22:02:53,719:INFO:common:yaml_file:config/config.yaml loaded successfully
+[2024-09-12 22:02:53,719:INFO:common:yaml_file:params.yaml loaded successfully
+[2024-09-12 22:02:53,720:INFO:common:created directory at: artifacts
+[2024-09-12 22:02:53,720:INFO:common:created directory at: artifacts/data_validation
+[2024-09-12 22:02:53,720:INFO:main:<><><> stage DATA VALIDATION STAGE completed successfully <><><>
+[2024-09-12 22:03:14,094:INFO:config:PyTorch version 2.4.0 available.
+[2024-09-12 22:03:14,753:INFO:main:<><><> stage DATA INGESTION STAGE started <><><>
+[2024-09-12 22:03:14,755:INFO:common:yaml_file:config/config.yaml loaded successfully
+[2024-09-12 22:03:14,756:INFO:common:yaml_file:params.yaml loaded successfully
+[2024-09-12 22:03:14,756:INFO:common:created directory at: artifacts
+[2024-09-12 22:03:14,757:INFO:common:created directory at: artifacts/data_ingestion
+[2024-09-12 22:03:16,260:INFO:data_ingestion:artifacts/data_ingestion/data.zip downloaded! with following info:
+Connection: close
+Content-Length: 7903594
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "dbc016a060da18070593b83afff580c9b300f0b6ea4147a7988433e04df246ca"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 5E34:119D05:B4AF5:D0BB5:66E31306
+Accept-Ranges: bytes
+Date: Thu, 12 Sep 2024 16:18:15 GMT
+Via: 1.1 varnish
+X-Served-By: cache-del21742-DEL
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1726157895.229529,VS0,VE279
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: e7d3654ab595e00d177b23836fe86da723cf4bb1
+Expires: Thu, 12 Sep 2024 16:23:15 GMT
+Source-Age: 0
+
+
+[2024-09-12 22:03:16,260:INFO:data_ingestion:Extracting zip file to artifacts/data_ingestion
+[2024-09-12 22:03:16,595:INFO:data_ingestion:Extraction completed successfully.
+[2024-09-12 22:03:16,595:INFO:main:<><><> stage DATA INGESTION STAGE completed successfully <><><>
+[2024-09-12 22:03:38,285:INFO:config:PyTorch version 2.4.0 available.
+[2024-09-12 22:03:38,883:INFO:main:<><><> stage DATA INGESTION STAGE started <><><>
+[2024-09-12 22:03:38,885:INFO:common:yaml_file:config/config.yaml loaded successfully
+[2024-09-12 22:03:38,887:INFO:common:yaml_file:params.yaml loaded successfully
+[2024-09-12 22:03:38,887:INFO:common:created directory at: artifacts
+[2024-09-12 22:03:38,888:INFO:common:created directory at: artifacts/data_ingestion
+[2024-09-12 22:03:38,888:INFO:data_ingestion:File already exists with size:  ~7718 KB
+[2024-09-12 22:03:38,888:INFO:data_ingestion:Extracting zip file to artifacts/data_ingestion
+[2024-09-12 22:03:39,184:INFO:data_ingestion:Extraction completed successfully.
+[2024-09-12 22:03:39,184:INFO:main:<><><> stage DATA INGESTION STAGE completed successfully <><><>
+[2024-09-12 22:03:39,184:INFO:main:<><><> stage DATA VALIDATION STAGE started <><><>
+[2024-09-12 22:03:39,187:INFO:common:yaml_file:config/config.yaml loaded successfully
+[2024-09-12 22:03:39,189:INFO:common:yaml_file:params.yaml loaded successfully
+[2024-09-12 22:03:39,189:INFO:common:created directory at: artifacts
+[2024-09-12 22:03:39,189:INFO:common:created directory at: artifacts/data_validation
+[2024-09-12 22:03:39,191:INFO:main:<><><> stage DATA VALIDATION STAGE completed successfully <><><>
+[2024-09-12 22:03:54,275:INFO:config:PyTorch version 2.4.0 available.
+[2024-09-12 22:03:54,864:INFO:main:<><><> stage DATA INGESTION STAGE started <><><>
+[2024-09-12 22:03:54,866:INFO:common:yaml_file:config/config.yaml loaded successfully
+[2024-09-12 22:03:54,867:INFO:common:yaml_file:params.yaml loaded successfully
+[2024-09-12 22:03:54,867:INFO:common:created directory at: artifacts
+[2024-09-12 22:03:54,868:INFO:common:created directory at: artifacts/data_ingestion
+[2024-09-12 22:03:54,868:INFO:data_ingestion:File already exists with size:  ~7718 KB
+[2024-09-12 22:03:54,868:INFO:data_ingestion:Extracting zip file to artifacts/data_ingestion
+[2024-09-12 22:03:55,199:INFO:data_ingestion:Extraction completed successfully.
+[2024-09-12 22:03:55,199:INFO:main:<><><> stage DATA INGESTION STAGE completed successfully <><><>
+[2024-09-12 22:03:55,199:INFO:main:<><><> stage DATA VALIDATION STAGE started <><><>
+[2024-09-12 22:03:55,201:INFO:common:yaml_file:config/config.yaml loaded successfully
+[2024-09-12 22:03:55,203:INFO:common:yaml_file:params.yaml loaded successfully
+[2024-09-12 22:03:55,203:INFO:common:created directory at: artifacts
+[2024-09-12 22:03:55,203:INFO:common:created directory at: artifacts/data_validation
+[2024-09-12 22:03:55,204:INFO:main:<><><> stage DATA VALIDATION STAGE completed successfully <><><>
+[2024-09-12 22:03:55,204:INFO:main:<><><> stage DATA TRANSFORMATION STAGE started <><><>
+[2024-09-12 22:03:55,206:INFO:common:yaml_file:config/config.yaml loaded successfully
+[2024-09-12 22:03:55,207:INFO:common:yaml_file:params.yaml loaded successfully
+[2024-09-12 22:03:55,208:INFO:common:created directory at: artifacts
+[2024-09-12 22:03:55,208:INFO:common:created directory at: artifacts/data_transformation
+[2024-09-12 22:03:59,676:INFO:main:<><><> stage DATA TRANSFORMATION STAGE completed successfully <><><>
+[2024-09-12 22:04:08,565:INFO:config:PyTorch version 2.4.0 available.
+[2024-09-12 22:04:09,193:INFO:main:<><><> stage DATA INGESTION STAGE started <><><>
+[2024-09-12 22:04:09,195:INFO:common:yaml_file:config/config.yaml loaded successfully
+[2024-09-12 22:04:09,196:INFO:common:yaml_file:params.yaml loaded successfully
+[2024-09-12 22:04:09,197:INFO:common:created directory at: artifacts
+[2024-09-12 22:04:09,197:INFO:common:created directory at: artifacts/data_ingestion
+[2024-09-12 22:04:09,197:INFO:data_ingestion:File already exists with size:  ~7718 KB
+[2024-09-12 22:04:09,197:INFO:data_ingestion:Extracting zip file to artifacts/data_ingestion
+[2024-09-12 22:04:09,502:INFO:data_ingestion:Extraction completed successfully.
+[2024-09-12 22:04:09,502:INFO:main:<><><> stage DATA INGESTION STAGE completed successfully <><><>
+[2024-09-12 22:04:09,502:INFO:main:<><><> stage DATA VALIDATION STAGE started <><><>
+[2024-09-12 22:04:09,503:INFO:common:yaml_file:config/config.yaml loaded successfully
+[2024-09-12 22:04:09,504:INFO:common:yaml_file:params.yaml loaded successfully
+[2024-09-12 22:04:09,504:INFO:common:created directory at: artifacts
+[2024-09-12 22:04:09,505:INFO:common:created directory at: artifacts/data_validation
+[2024-09-12 22:04:09,506:INFO:main:<><><> stage DATA VALIDATION STAGE completed successfully <><><>
+[2024-09-12 22:04:09,506:INFO:main:<><><> stage DATA TRANSFORMATION STAGE started <><><>
+[2024-09-12 22:04:09,507:INFO:common:yaml_file:config/config.yaml loaded successfully
+[2024-09-12 22:04:09,508:INFO:common:yaml_file:params.yaml loaded successfully
+[2024-09-12 22:04:09,509:INFO:common:created directory at: artifacts
+[2024-09-12 22:04:09,509:INFO:common:created directory at: artifacts/data_transformation
+[2024-09-12 22:04:11,130:INFO:main:<><><> stage DATA TRANSFORMATION STAGE completed successfully <><><>
+[2024-09-12 22:04:11,130:INFO:main:<><><> stage MODEL TRAINING STAGE started <><><>
+[2024-09-12 22:04:11,132:INFO:common:yaml_file:config/config.yaml loaded successfully
+[2024-09-12 22:04:11,133:INFO:common:yaml_file:params.yaml loaded successfully
+[2024-09-12 22:04:11,133:INFO:common:created directory at: artifacts
+[2024-09-12 22:04:20,915:ERROR:main:CUDA error: CUDA-capable device(s) is/are busy or unavailable
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+Traceback (most recent call last):
+  File "/media/puzan/NewVolume/textsummarizer/Text-summarizer/main.py", line 44, in <module>
+    model_training.main()
+  File "/media/puzan/NewVolume/textsummarizer/Text-summarizer/src/textSummarizer/pipeline/stage_04_modeltrainer.py", line 16, in main
+    raise e
+  File "/media/puzan/NewVolume/textsummarizer/Text-summarizer/src/textSummarizer/pipeline/stage_04_modeltrainer.py", line 14, in main
+    model_trainer_config.train()
+  File "/media/puzan/NewVolume/textsummarizer/Text-summarizer/src/textSummarizer/components/model_trainer.py", line 14, in train
+    model_pegasus=AutoModelForSeq2SeqLM.from_pretrained(self.config.model_ckpt).to(device)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/puzan/anaconda3/envs/textsumm/lib/python3.12/site-packages/transformers/modeling_utils.py", line 2905, in to
+    return super().to(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/puzan/anaconda3/envs/textsumm/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1174, in to
+    return self._apply(convert)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/puzan/anaconda3/envs/textsumm/lib/python3.12/site-packages/torch/nn/modules/module.py", line 780, in _apply
+    module._apply(fn)
+  File "/home/puzan/anaconda3/envs/textsumm/lib/python3.12/site-packages/torch/nn/modules/module.py", line 780, in _apply
+    module._apply(fn)
+  File "/home/puzan/anaconda3/envs/textsumm/lib/python3.12/site-packages/torch/nn/modules/module.py", line 805, in _apply
+    param_applied = fn(param)
+                    ^^^^^^^^^
+  File "/home/puzan/anaconda3/envs/textsumm/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1160, in convert
+    return t.to(
+           ^^^^^
+RuntimeError: CUDA error: CUDA-capable device(s) is/are busy or unavailable
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
