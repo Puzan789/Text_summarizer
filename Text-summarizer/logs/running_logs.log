@@ -1127,3 +1127,153 @@ CUDA kernel errors might be asynchronously reported at some other API call, so t
 For debugging consider passing CUDA_LAUNCH_BLOCKING=1
 Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
 
+[2024-09-12 22:55:52,208:INFO:main:1 change detected
+[2024-09-12 22:55:52,844:INFO:main:1 change detected
+[2024-09-12 22:55:53,195:INFO:main:1 change detected
+[2024-09-12 22:55:53,546:INFO:main:1 change detected
+[2024-09-12 22:55:53,897:INFO:main:4 changes detected
+[2024-09-12 22:55:54,248:INFO:main:1 change detected
+[2024-09-12 22:55:54,599:INFO:main:1 change detected
+[2024-09-12 22:55:54,950:INFO:main:1 change detected
+[2024-09-12 22:55:55,301:INFO:main:1 change detected
+[2024-09-12 22:55:55,653:INFO:main:1 change detected
+[2024-09-12 22:55:56,003:INFO:main:1 change detected
+[2024-09-12 22:55:56,354:INFO:main:1 change detected
+[2024-09-12 22:55:56,705:INFO:main:1 change detected
+[2024-09-12 22:55:57,057:INFO:main:1 change detected
+[2024-09-12 22:55:57,407:INFO:main:1 change detected
+[2024-09-12 22:55:57,758:INFO:main:1 change detected
+[2024-09-12 22:55:58,109:INFO:main:1 change detected
+[2024-09-12 22:55:58,460:INFO:main:1 change detected
+[2024-09-12 22:55:58,811:INFO:main:1 change detected
+[2024-09-12 22:55:59,164:INFO:main:1 change detected
+[2024-09-12 22:55:59,515:INFO:main:1 change detected
+[2024-09-12 22:55:59,866:INFO:main:1 change detected
+[2024-09-12 22:56:00,217:INFO:main:1 change detected
+[2024-09-12 22:56:00,568:INFO:main:1 change detected
+[2024-09-12 22:56:00,920:INFO:main:1 change detected
+[2024-09-12 22:56:01,272:INFO:main:1 change detected
+[2024-09-12 22:56:01,624:INFO:main:1 change detected
+[2024-09-12 22:56:01,975:INFO:main:1 change detected
+[2024-09-12 22:56:02,326:INFO:main:1 change detected
+[2024-09-12 22:56:02,678:INFO:main:1 change detected
+[2024-09-12 22:56:03,029:INFO:main:1 change detected
+[2024-09-12 22:56:03,381:INFO:main:1 change detected
+[2024-09-12 22:56:03,733:INFO:main:1 change detected
+[2024-09-12 22:56:04,084:INFO:main:1 change detected
+[2024-09-12 22:56:04,436:INFO:main:1 change detected
+[2024-09-12 22:56:04,787:INFO:main:1 change detected
+[2024-09-12 22:56:05,138:INFO:main:1 change detected
+[2024-09-12 22:56:05,490:INFO:main:1 change detected
+[2024-09-12 22:56:05,841:INFO:main:1 change detected
+[2024-09-12 22:56:06,193:INFO:main:1 change detected
+[2024-09-12 22:56:06,544:INFO:main:1 change detected
+[2024-09-12 22:56:06,896:INFO:main:1 change detected
+[2024-09-12 22:56:07,246:INFO:main:1 change detected
+[2024-09-12 22:56:07,597:INFO:main:1 change detected
+[2024-09-12 22:56:07,948:INFO:main:1 change detected
+[2024-09-12 22:56:08,299:INFO:main:1 change detected
+[2024-09-12 22:56:08,650:INFO:main:1 change detected
+[2024-09-12 22:56:08,877:INFO:config:PyTorch version 2.4.0 available.
+[2024-09-12 22:56:09,001:INFO:main:1 change detected
+[2024-09-12 22:56:09,352:INFO:main:1 change detected
+[2024-09-12 22:56:09,703:INFO:main:1 change detected
+[2024-09-12 22:56:09,964:INFO:main:<><><> stage DATA INGESTION STAGE started <><><>
+[2024-09-12 22:56:09,967:INFO:common:yaml_file:config/config.yaml loaded successfully
+[2024-09-12 22:56:09,970:INFO:common:yaml_file:params.yaml loaded successfully
+[2024-09-12 22:56:09,970:INFO:common:created directory at: artifacts
+[2024-09-12 22:56:09,971:INFO:common:created directory at: artifacts/data_ingestion
+[2024-09-12 22:56:09,971:INFO:data_ingestion:File already exists with size:  ~7718 KB
+[2024-09-12 22:56:09,972:INFO:data_ingestion:Extracting zip file to artifacts/data_ingestion
+[2024-09-12 22:56:10,054:INFO:main:9 changes detected
+[2024-09-12 22:56:10,405:INFO:main:8 changes detected
+[2024-09-12 22:56:10,426:INFO:data_ingestion:Extraction completed successfully.
+[2024-09-12 22:56:10,426:INFO:main:<><><> stage DATA INGESTION STAGE completed successfully <><><>
+[2024-09-12 22:56:10,427:INFO:main:<><><> stage DATA VALIDATION STAGE started <><><>
+[2024-09-12 22:56:10,430:INFO:common:yaml_file:config/config.yaml loaded successfully
+[2024-09-12 22:56:10,431:INFO:common:yaml_file:params.yaml loaded successfully
+[2024-09-12 22:56:10,432:INFO:common:created directory at: artifacts
+[2024-09-12 22:56:10,432:INFO:common:created directory at: artifacts/data_validation
+[2024-09-12 22:56:10,434:INFO:main:<><><> stage DATA VALIDATION STAGE completed successfully <><><>
+[2024-09-12 22:56:10,434:INFO:main:<><><> stage DATA TRANSFORMATION STAGE started <><><>
+[2024-09-12 22:56:10,437:INFO:common:yaml_file:config/config.yaml loaded successfully
+[2024-09-12 22:56:10,439:INFO:common:yaml_file:params.yaml loaded successfully
+[2024-09-12 22:56:10,439:INFO:common:created directory at: artifacts
+[2024-09-12 22:56:10,440:INFO:common:created directory at: artifacts/data_transformation
+[2024-09-12 22:56:10,756:INFO:main:8 changes detected
+[2024-09-12 22:56:11,108:INFO:main:1 change detected
+[2024-09-12 22:56:11,459:INFO:main:1 change detected
+[2024-09-12 22:56:11,810:INFO:main:1 change detected
+[2024-09-12 22:56:12,162:INFO:main:1 change detected
+[2024-09-12 22:56:12,513:INFO:main:6 changes detected
+[2024-09-12 22:56:12,914:INFO:main:10 changes detected
+[2024-09-12 22:56:12,936:INFO:main:<><><> stage DATA TRANSFORMATION STAGE completed successfully <><><>
+[2024-09-12 22:56:12,937:INFO:main:<><><> stage MODEL TRAINING STAGE started <><><>
+[2024-09-12 22:56:12,940:INFO:common:yaml_file:config/config.yaml loaded successfully
+[2024-09-12 22:56:12,943:INFO:common:yaml_file:params.yaml loaded successfully
+[2024-09-12 22:56:12,944:INFO:common:created directory at: artifacts
+[2024-09-12 22:56:13,265:INFO:main:1 change detected
+[2024-09-12 22:56:13,616:INFO:main:1 change detected
+[2024-09-12 22:56:13,967:INFO:main:1 change detected
+[2024-09-12 22:56:14,318:INFO:main:1 change detected
+[2024-09-12 22:56:14,669:INFO:main:1 change detected
+[2024-09-12 22:56:15,020:INFO:main:1 change detected
+[2024-09-12 22:56:15,371:INFO:main:1 change detected
+[2024-09-12 22:56:15,722:INFO:main:1 change detected
+[2024-09-12 22:56:16,074:INFO:main:1 change detected
+[2024-09-12 22:56:16,425:INFO:main:1 change detected
+[2024-09-12 22:56:16,776:INFO:main:1 change detected
+[2024-09-12 22:56:17,127:INFO:main:1 change detected
+[2024-09-12 22:56:17,478:INFO:main:1 change detected
+[2024-09-12 22:56:17,829:INFO:main:1 change detected
+[2024-09-12 22:56:18,180:INFO:main:1 change detected
+[2024-09-12 22:56:18,545:INFO:main:1 change detected
+[2024-09-12 22:56:18,981:INFO:main:1 change detected
+[2024-09-12 22:56:19,579:INFO:main:1 change detected
+[2024-09-12 22:56:21,662:INFO:main:1 change detected
+[2024-09-12 22:56:23,895:INFO:main:1 change detected
+[2024-09-12 22:56:26,354:INFO:main:1 change detected
+[2024-09-12 22:57:04,092:INFO:main:1 change detected
+[2024-09-12 22:57:04,453:INFO:main:1 change detected
+[2024-09-12 22:57:04,807:INFO:main:1 change detected
+[2024-09-12 22:57:05,158:INFO:main:1 change detected
+[2024-09-12 22:57:05,509:INFO:main:1 change detected
+[2024-09-12 22:57:05,860:INFO:main:1 change detected
+[2024-09-12 22:57:06,211:INFO:main:1 change detected
+[2024-09-12 22:57:06,562:INFO:main:1 change detected
+[2024-09-12 22:57:06,913:INFO:main:1 change detected
+[2024-09-12 22:57:07,264:INFO:main:1 change detected
+[2024-09-12 22:57:07,615:INFO:main:1 change detected
+[2024-09-12 22:57:07,966:INFO:main:1 change detected
+[2024-09-12 22:57:08,317:INFO:main:1 change detected
+[2024-09-12 22:57:08,669:INFO:main:1 change detected
+[2024-09-12 22:57:09,020:INFO:main:1 change detected
+[2024-09-12 22:57:09,371:INFO:main:1 change detected
+[2024-09-12 22:57:09,722:INFO:main:1 change detected
+[2024-09-12 22:57:10,073:INFO:main:1 change detected
+[2024-09-12 22:57:10,423:INFO:main:1 change detected
+[2024-09-12 22:57:10,774:INFO:main:1 change detected
+[2024-09-12 22:57:11,125:INFO:main:1 change detected
+[2024-09-12 22:57:11,476:INFO:main:1 change detected
+[2024-09-12 22:57:11,827:INFO:main:1 change detected
+[2024-09-12 22:57:12,178:INFO:main:1 change detected
+[2024-09-12 22:57:12,529:INFO:main:1 change detected
+[2024-09-12 22:57:12,929:INFO:main:2 changes detected
+[2024-09-12 22:57:13,281:INFO:main:1 change detected
+[2024-09-12 22:57:13,632:INFO:main:1 change detected
+[2024-09-12 22:57:13,983:INFO:main:1 change detected
+[2024-09-12 22:57:14,334:INFO:main:1 change detected
+[2024-09-12 22:57:14,687:INFO:main:1 change detected
+[2024-09-12 22:57:15,037:INFO:main:1 change detected
+[2024-09-12 22:57:15,389:INFO:main:1 change detected
+[2024-09-12 22:57:15,741:INFO:main:1 change detected
+[2024-09-12 22:57:16,094:INFO:main:1 change detected
+[2024-09-12 22:57:16,451:INFO:main:1 change detected
+[2024-09-12 22:57:16,854:INFO:main:1 change detected
+[2024-09-12 22:57:17,241:INFO:main:1 change detected
+[2024-09-12 22:57:17,608:INFO:main:1 change detected
+[2024-09-12 22:57:17,965:INFO:main:1 change detected
+[2024-09-12 22:57:18,316:INFO:main:1 change detected
+[2024-09-12 22:57:18,667:INFO:main:1 change detected
+[2024-09-12 22:57:19,018:INFO:main:1 change detected
+[2024-09-12 22:57:19,369:INFO:main:1 change detected
