@@ -9,7 +9,7 @@ with open("Readme.md", "r", encoding="utf-8") as f:
 __version__ = "0.0.0"
 
 # Metadata about the package
-REPO_NAME = "Text-summarizer"         # The name of the repository on GitHub.
+REPO_NAME = "Text_summarizer"         # The name of the repository on GitHub.
 AUTHOR_USER_NAME = "puzan789"         # The GitHub username of the author.
 SRC_REPO = "textSummarizer"           # The name of the source directory for the package.
 AUTHOR_EMAIL = "puzan936@gmail.com"   # The author's email address.
