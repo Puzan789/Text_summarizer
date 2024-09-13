@@ -59,7 +59,7 @@ This project provides an end-to-end pipeline for text summarization using the `g
 
 - Python 3.12+
 - Pip
-- GPU (optional)
+- GPU
 
 ### Installation
 
