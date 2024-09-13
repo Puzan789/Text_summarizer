@@ -72,6 +72,10 @@ This project provides an end-to-end pipeline for text summarization using the `g
    ```bash
    pip install -r requirements.txt
    ```
+3. Dataset
+```bash
+https://github.com/Puzan789/Datas
+```
 
 
 
