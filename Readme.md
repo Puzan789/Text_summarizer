@@ -91,7 +91,7 @@ fastapi dev app.py
 ```
 
 ## Configuration
-
+All configuration are stored in `config/config.yaml`.
 All configuration parameters are stored in `params.yaml`.
 
 ## Logging and Monitoring
