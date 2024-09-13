@@ -1,2 +1,4 @@
 artifcats/*
 .pytype/
+
+*/__pycache__/
