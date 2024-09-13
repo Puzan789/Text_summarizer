@@ -66,8 +66,7 @@ This project provides an end-to-end pipeline for text summarization using the `g
 1. Clone the repository:
    ```bash
    git clone https://github.com/Puzan789/Text_summarizer/tree/master/Text-summarizer
-   cd textSummarizer
-   ```
+    ```
 
 2. Install dependencies:
    ```bash
